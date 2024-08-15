@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:14:57 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 01:17:32 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/15 18:39:06 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,5 @@ void 		Animal::setType(const std::string &str)
 
 void		Animal::makeSound(void) const
 {
-	std::cout << "*default sound*" << std::endl;
+	std::cout << "*...*" << std::endl;
 }

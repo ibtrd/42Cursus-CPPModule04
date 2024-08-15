@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:14:40 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 01:48:29 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/15 18:14:18 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <string>
 
-# define ANIMAL_TYPE "Default Animal"
+# define ANIMAL_TYPE "Animal"
 
 class Animal
 {
