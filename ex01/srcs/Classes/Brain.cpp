@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 14:10:10 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 15:23:49 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/15 18:34:43 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,13 @@ void	Brain::addIdea(const std::string &str)
 void	Brain::displayIdeas(void) const
 {
 	for (int i = 0; i < IDEAS_SIZE; i++)
-		std::cout << this->_ideas[i] << " ";
+	{
+		if (this->_ideas[i].length())
+		{
+			if (i)
+				std::cout << " ";
+			std::cout << this->_ideas[i];
+		}
+	}
 	std::cout << std::endl;
 }
