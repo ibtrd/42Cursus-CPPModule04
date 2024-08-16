@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:26:49 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 15:56:07 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/16 02:32:25 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ Dog::Dog(const Dog &other)
 Dog::~Dog(void)
 {
 	std::cout << "\e[32mDog\e[0m destructor called" << std::endl;
-	delete _brain;
+	delete this->_brain;
 }
 
 /* ASIGNMENT OPERATOR ******************************************************* */
