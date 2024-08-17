@@ -6,7 +6,7 @@
 #    By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/13 22:47:55 by ibertran          #+#    #+#              #
-#    Updated: 2024/08/16 00:58:43 by ibertran         ###   ########lyon.fr    #
+#    Updated: 2024/08/17 00:05:48 by ibertran         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,6 @@ CLASSES = \
 	Cure \
 	MateriaSource \
 	Character \
-	World \
 
 SRC += $(patsubst %,$(CLASSES_DIR)%,$(CLASSES))
 

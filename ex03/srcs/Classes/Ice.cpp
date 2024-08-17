@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 18:58:18 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/16 00:39:05 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/17 19:21:52 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ AMateria	*Ice::clone() const
 	return (new Ice(*this));
 }
 
-void		Ice::use(ICharacter &target)
+void	Ice::use(ICharacter &target)
 {
 	std::cout << "* shoots an ice bolt at " << target.getName() << " *" << std::endl;
 }

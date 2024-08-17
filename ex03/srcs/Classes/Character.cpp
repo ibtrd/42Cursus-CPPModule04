@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 21:12:46 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/16 01:33:37 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/17 19:20:28 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,12 @@
 
 /* CONSTRUCTORS ************************************************************* */
 
-Character::Character(void)
-: _name("unnamed") 
+Character::Character(void) : _name("unnamed") 
 {
 	this->_initInventory();
 }
 
-Character::Character(const std::string &name)
-: _name(name)
+Character::Character(const std::string &name) : _name(name)
 {
 	this->_initInventory();
 }
@@ -53,6 +51,8 @@ Character	&Character::operator=(const Character &other)
 	this->_name = other._name;
 	for (int i = 0; i < CHARACTER_MATERIA_STORAGE; i++)
 	{
+		if (this->_inventory[i])
+			delete this->_inventory[i];
 		if (other._inventory[i])
 			this->_inventory[i] = other._inventory[i]->clone();
 		else
@@ -84,7 +84,6 @@ void	Character::unequip(int idx)
 {
 	if (idx < 0 || idx >= CHARACTER_MATERIA_STORAGE)
 		return ;
-	this->dropMateria(this->_inventory[idx]);
 	this->_inventory[idx] = NULL;
 }
 

@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 21:12:27 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/16 01:34:10 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/17 00:05:32 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,10 @@
 #include <string>
 
 #include "ICharacter.hpp"
-#include "World.hpp"
 
 # define CHARACTER_MATERIA_STORAGE 4
 
-class Character : public ICharacter, private World
+class Character : public ICharacter
 {
 	private:
 		std::string	_name;
