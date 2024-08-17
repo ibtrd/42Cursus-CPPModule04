@@ -6,7 +6,7 @@
 #    By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/13 22:47:55 by ibertran          #+#    #+#              #
-#    Updated: 2024/08/17 00:05:48 by ibertran         ###   ########lyon.fr    #
+#    Updated: 2024/08/17 19:26:57 by ibertran         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,17 +37,20 @@ CLASSES = \
 
 SRC += $(patsubst %,$(CLASSES_DIR)%,$(CLASSES))
 
+INTERFACES_DIR = $(SRCS_DIR)Interfaces/
+
 # *** LIBRARIES && INCLUDES  ************************************************* #
 
 INCS_DIR = incs/
 INCS = \
 	$(INCS_DIR) \
 	$(SRCS_DIR)$(CLASSES_DIR) \
+	$(INTERFACES_DIR) \
 
 # *** CONFIG ***************************************************************** #
 
 CC			=	c++
-CFLAGS		=	-Wall -Wextra -Werror -std=c++98 -g3
+CFLAGS		=	-Wall -Wextra -Werror -std=c++98
 
 DEFINES		=
 
