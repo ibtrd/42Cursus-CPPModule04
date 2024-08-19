@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/13 23:02:21 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 15:54:34 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:28:17 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,5 +118,8 @@ int main(void)
 
 		std::cout << std::endl;
 	}
+
+	Animal canExist; // Can compile because Animal is not an abstract class
 	return (0);
+
 }
