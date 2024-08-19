@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 21:12:27 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/17 00:05:32 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:34:33 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,6 @@ class Character : public ICharacter
 		AMateria	*_inventory[CHARACTER_MATERIA_STORAGE];
 
 		void	_initInventory(void);
-
-	protected:
 
 	public:
 		Character(void);

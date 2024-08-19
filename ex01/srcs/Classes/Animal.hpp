@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:14:40 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 18:39:10 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:19:50 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@
 
 class Animal
 {
-	private:
-
 	protected:
 		std::string	type;
 

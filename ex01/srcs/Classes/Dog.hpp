@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:26:46 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 15:19:15 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:20:05 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,6 @@ class Dog : public Animal
 {
 	private:
 		Brain	*_brain;
-
-	protected:
 
 	public:
 		Dog(void);

@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 21:13:15 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 22:15:02 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:36:48 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ class MateriaSource : public IMateriaSource
 	private:
 		AMateria	*_materias[MATERIASOURCE_STORAGE];
 		size_t		_stored;
-
-	protected:
 
 	public:
 		MateriaSource(void);

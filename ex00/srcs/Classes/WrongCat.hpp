@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:27:37 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 01:49:04 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:16:26 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,6 @@
 
 class WrongCat : public WrongAnimal
 {
-	private:
-
-	protected:
-
 	public:
 		WrongCat(void);
 		WrongCat(const WrongCat &);

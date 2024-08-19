@@ -19,8 +19,6 @@
 
 class AAnimal
 {
-	private:
-
 	protected:
 		std::string	type;
 

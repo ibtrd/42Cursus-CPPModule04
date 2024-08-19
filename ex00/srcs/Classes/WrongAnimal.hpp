@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:14:40 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 01:48:51 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:16:18 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@
 
 class WrongAnimal
 {
-	private:
-
 	protected:
 		std::string	type;
 

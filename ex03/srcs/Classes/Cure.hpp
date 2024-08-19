@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 18:59:12 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/16 00:17:49 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:34:37 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,6 @@
 
 class Cure : public AMateria
 {
-	private:
-
-	protected:
-
 	public:
 		Cure(void);
 		Cure(const Cure &);

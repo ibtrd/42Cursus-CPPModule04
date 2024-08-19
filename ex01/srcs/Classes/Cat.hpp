@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 00:27:37 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 15:35:18 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:20:00 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ class Cat : public Animal
 {
 	private:
 		Brain	*_brain;
-
-	protected:
-
+		
 	public:
 		Cat(void);
 		Cat(const Cat &);

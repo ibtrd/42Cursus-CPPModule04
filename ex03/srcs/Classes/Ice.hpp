@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 18:58:20 by ibertran          #+#    #+#             */
-/*   Updated: 2024/08/15 23:05:10 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/08/19 23:37:05 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,6 @@
 
 class Ice : public AMateria
 {
-	private:
-
-	protected:
-
 	public:
 		Ice(void);
 		Ice(const Ice &);
